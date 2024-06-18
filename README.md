@@ -2,5 +2,5 @@
 
 ## Analysis of Algorithms
 
-- [How to analyse loops?](https://www.geeksforgeeks.org/how-to-analyse-loops-for-complexity-analysis-of-algorithms/)
-- [How to analyse recurrence relations?](https://www.geeksforgeeks.org/how-to-analyse-loops-for-complexity-analysis-of-algorithms/)
+- _<a href="https://www.geeksforgeeks.org/how-to-analyse-loops-for-complexity-analysis-of-algorithms/" target="_blank">How to analyse loops?</a>_
+- _<a href="https://www.geeksforgeeks.org/how-to-analyse-complexity-of-recurrence-relation/" target="_blank">How to analyse recurrence relations?</a>_
