@@ -69,33 +69,18 @@ class Solution:
         if len(nums) == 1:
             return 1
         
-        # left for unique elements
-        # right for iterating to find unique elements
+        # left pointer for unique elements
+        # right pointer for iterating to find unique elements
+
         left = 0
-        
+
         for right in range(1, len(nums)):
             if nums[right] == nums[right - 1]:
-                pass  # right will increase by 1 (loop)
+                continue  # right will increase by 1 (loop)
             else:
-                # not a duplicate
-                nums[left + 1] = nums[right]
-                # move left pointer to next (for in-place)
-                left += 1
-        return left + 1  # count of unique elements
-```
-
-```python
-class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        if len(nums) == 1:
-            return 1
-
-        left = 0
-        for right in range(1, len(nums)):
-            if nums[right] != nums[right - 1]:
-                nums[left + 1] = nums[right]
-                left += 1
-
+                # right is not a duplicate
+                nums[left + 1] = nums[right]  # for in-place
+                left += 1  # move left pointer to next
         return left + 1
 ```
 
